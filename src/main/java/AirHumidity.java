@@ -31,10 +31,10 @@ public class AirHumidity implements OperatorInterface {
 
     @Override
     public void run(Message message) {
-        double tempInside = message.getInput("inside-temp").getValue();
-        double humidityInside = message.getInput("inside-humidity").getValue();
-        double tempOutside = message.getInput("outside-temp").getValue();
-        double humidityOutside = message.getInput("outside-humidity").getValue();
+        double tempInside = message.getInput("insideTemp").getValue();
+        double humidityInside = message.getInput("insideHumidity").getValue();
+        double tempOutside = message.getInput("outsideTemp").getValue();
+        double humidityOutside = message.getInput("outsideHumidity").getValue();
 
         if(needsConversion) {
             tempInside = metric(tempInside);
@@ -71,10 +71,10 @@ public class AirHumidity implements OperatorInterface {
 
     @Override
     public void config(Message message) {
-        message.addInput("inside-temp");
-        message.addInput("inside-humidity");
-        message.addInput("outside-temp");
-        message.addInput("outside-humidity");
+        message.addInput("insideTemp");
+        message.addInput("insideHumidity");
+        message.addInput("outsideTemp");
+        message.addInput("outsideHumidity");
     }
 
     protected double e_sat(double temp) {

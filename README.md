@@ -5,10 +5,10 @@ humidity after airing the room.
 
 ## Inputs
 
-* inside-temp (float): Reading from an inside temperature sensor
-* inside-humidity (float): Reading from an inside humidity (rel.) sensor
-* outside-temp (float): Reading from an outside temperature sensor
-* outside-humidity (float): Reading from an outside humidity (rel.) sensor
+* insideTemp (float): Reading from an inside temperature sensor
+* insideHumidity (float): Reading from an inside humidity (rel.) sensor
+* outsideTemp (float): Reading from an outside temperature sensor
+* outsideHumidity (float): Reading from an outside humidity (rel.) sensor
 
 ## Outputs
 

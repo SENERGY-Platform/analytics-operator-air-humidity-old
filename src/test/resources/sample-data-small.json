@@ -1,5 +1,5 @@
-{"inside-temp": 25, "inside-humidity": 80, "outside-humidity":  80, "outside-temp":  15, "expected":  0.43}
-{"inside-temp": 25, "inside-humidity": 10, "outside-humidity":  80, "outside-temp":  15, "expected":  0.43}
-{"inside-temp": 25, "inside-humidity": 0.8, "outside-humidity":  0.8, "outside-temp":  15, "expected":  0.43}
-{"inside-temp": 20, "inside-humidity": 0.8, "outside-humidity":  0.5, "outside-temp":  -5, "expected":  0.086}
-{"inside-temp": 30, "inside-humidity": 0.8, "outside-humidity":  0.40, "outside-temp":  40, "expected":  0.696}
+{"insideTemp": 25, "insideHumidity": 80, "outsideHumidity":  80, "outsideTemp":  15, "expected":  0.43}
+{"insideTemp": 25, "insideHumidity": 10, "outsideHumidity":  80, "outsideTemp":  15, "expected":  0.43}
+{"insideTemp": 25, "insideHumidity": 0.8, "outsideHumidity":  0.8, "outsideTemp":  15, "expected":  0.43}
+{"insideTemp": 20, "insideHumidity": 0.8, "outsideHumidity":  0.5, "outsideTemp":  -5, "expected":  0.086}
+{"insideTemp": 30, "insideHumidity": 0.8, "outsideHumidity":  0.40, "outsideTemp":  40, "expected":  0.696}

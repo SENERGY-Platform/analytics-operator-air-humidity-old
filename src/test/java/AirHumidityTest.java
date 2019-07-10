@@ -20,7 +20,7 @@ public class AirHumidityTest {
             double actual = Double.parseDouble(m.getMessageString().split("humidityAfterAir\":")[1].split(",")[0]);
             Assert.assertEquals(expected, actual, 0.02);
 
-            double oldHumidity = m.getInput("inside-humidity").getValue();
+            double oldHumidity = m.getInput("insideHumidity").getValue();
             if(oldHumidity > 1){
                 //Expect reading in range 0-100 instead 0-1
                 oldHumidity /= 100;

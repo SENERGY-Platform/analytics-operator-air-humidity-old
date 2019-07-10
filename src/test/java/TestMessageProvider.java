@@ -34,10 +34,10 @@ public class TestMessageProvider {
                 .put("FilterType", "DeviceId")
                 .put("FilterValue", "1")
                 .put("Mappings", new JSONArray()
-                        .put(new JSONObject().put("Source", "value.reading.inside-temp").put("Dest", "inside-temp"))
-                        .put(new JSONObject().put("Source", "value.reading.inside-humidity").put("Dest", "inside-humidity"))
-                        .put(new JSONObject().put("Source", "value.reading.outside-humidity").put("Dest", "outside-humidity"))
-                        .put(new JSONObject().put("Source", "value.reading.outside-temp").put("Dest", "outside-temp"))
+                        .put(new JSONObject().put("Source", "value.reading.insideTemp").put("Dest", "insideTemp"))
+                        .put(new JSONObject().put("Source", "value.reading.insideHumidity").put("Dest", "insideHumidity"))
+                        .put(new JSONObject().put("Source", "value.reading.outsideHumidity").put("Dest", "outsideHumidity"))
+                        .put(new JSONObject().put("Source", "value.reading.outsideTemp").put("Dest", "outsideTemp"))
                         .put(new JSONObject().put("Source", "value.reading.expected").put("Dest", "expected"))
                 )));
         return config;
