@@ -1,4 +1,5 @@
 {"inside-temp": 25, "inside-humidity": 80, "outside-humidity":  80, "outside-temp":  15, "expected":  0.43}
+{"inside-temp": 25, "inside-humidity": 10, "outside-humidity":  80, "outside-temp":  15, "expected":  0.43}
 {"inside-temp": 25, "inside-humidity": 0.8, "outside-humidity":  0.8, "outside-temp":  15, "expected":  0.43}
 {"inside-temp": 20, "inside-humidity": 0.8, "outside-humidity":  0.5, "outside-temp":  -5, "expected":  0.086}
 {"inside-temp": 30, "inside-humidity": 0.8, "outside-humidity":  0.40, "outside-temp":  40, "expected":  0.696}

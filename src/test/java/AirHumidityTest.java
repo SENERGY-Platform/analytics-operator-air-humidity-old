@@ -25,7 +25,7 @@ public class AirHumidityTest {
                 //Expect reading in range 0-100 instead 0-1
                 oldHumidity /= 100;
             }
-            boolean isLowerDetected = Boolean.parseBoolean(m.getMessageString().split("isLower\":")[1].split(",")[0].split("}")[0]);
+            boolean isLowerDetected = Boolean.parseBoolean(m.getMessageString().split("isLower\":\"")[1].split("\"")[0]);
             Assert.assertTrue(isLowerDetected == expected < oldHumidity);
         }
 

@@ -14,7 +14,7 @@ humidity after airing the room.
 
 * humidity-after-air (float): Theoretic rel. humidity of the air after complete change of air in the room and
 reheating/cooling the air to inside temperature
-* isLower (boolean): True, if the calculated humidity-after-air is lower than the current inside humidity 
+* isLower (String): 'true', if the calculated humidity-after-air is lower than the current inside humidity. 'false' otherwise
 
 ## Configs
 
