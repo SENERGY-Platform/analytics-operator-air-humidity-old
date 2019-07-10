@@ -17,7 +17,7 @@ public class AirHumidityTest {
 
             m.addInput("expected");
             double expected = m.getInput("expected").getValue();
-            double actual = Double.parseDouble(m.getMessageString().split("humidity-after-air\":")[1].split(",")[0]);
+            double actual = Double.parseDouble(m.getMessageString().split("humidityAfterAir\":")[1].split(",")[0]);
             Assert.assertEquals(expected, actual, 0.02);
 
             double oldHumidity = m.getInput("inside-humidity").getValue();
