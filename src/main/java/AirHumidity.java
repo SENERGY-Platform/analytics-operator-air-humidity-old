@@ -65,8 +65,7 @@ public class AirHumidity implements OperatorInterface {
         double expected = p_dExpected / p_d_maxInside;
 
         message.output("humidityAfterAir", expected);
-        boolean isLower = p_dOutside < p_dInside;
-        message.output("isLower", "" + isLower);
+        message.output("insideHumidity", humidityInside);
     }
 
     @Override
